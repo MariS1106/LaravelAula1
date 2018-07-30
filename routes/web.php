@@ -23,7 +23,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//asfasdf
-
-//afsafsdf
-
+Route::get('pm/{palavra}','StringsController@paraMaiusculo');
